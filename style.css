@@ -83,7 +83,24 @@ nav ul li a:hover::after{
 .header-text h1 span{
     color: #ff004f;
 }
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 200px;
+}
+
+.header-text a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 20px;
+    border: 1px solid #fff;
+}
+
 /*----------------------------about------------------------*/
+
 #about{
     padding: 480px 0;
     color: #ababab;

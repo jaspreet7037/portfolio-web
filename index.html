@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JASPREET SINGH</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/19146c52a4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/Jaspreet3.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I'm <span>Jaspreet Singh</span></h1>
+                <p>WEB3.0  Developer</p>
+        </div>
+    </div>
+<!---about--->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/jass2.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi, My name is Jaspreet Singh Virk from Kanpur, India.<br> 
+                        I'm a B.Tech Computer Science and Engineering Student from Bharati Vidyapeeth Deemed to be University College of Engineering, Pune.<br>
+                        Interested and Intrigued by coding, designing, marketing
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Graphic Designing</span><br>Video Editing / UI/UX Design / Adobe Photoshop.</li>
+                            <li><span>Web Development</span><br>Web App Development /<br> Competitive Programming /<br> Data Structure & Algorithm.</li>
+                            <li><span>App Development</span><br>Building Android apps.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Designing</span><br>
+                                2021 - Current<br>
+                                Adobe Premiere Pro, Adobe Photoshop, Figma , Canva, Spline
+                            </li>
+                            <li><span>Programming / Development</span><br>
+                                2021 - Current<br>
+                                C/C++, Java, Kotlin, Python(MediaPipe, OpenCV, Tensorflow, Mysql Connector, File Handling), 
+                                Mysql, Solidity, XML, YAML, HTML, CSS(Bootstrap, Tailwind CSS), Javascript(React.js), 
+                                Android Studio(Java , Kotlin)
+                            </li>
+                            <li><span>Subjects</span><br>
+                                Mathematics , English , Computer Science , Science(Physics, Chemistry)
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Seth Anandram Jaipuria School</span><br>April:2010 - June:2020<br>Grade : 1-10</li>
+                            <li><span>HAL Vidyalaya</span><br>July:2020 - July:2022<br>Grade : 11-12</li>
+                            <li><span>Bharati Vidyapeeth Deemed to be University College of Engineering</span><br>August:2022 - Current<br>First Year</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------services------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Graphic Design</h2>
+                    <p>Web Deign, Logo's, UI/UX Design, Instagram Post, Facebook Post.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development / Programming</h2>
+                    <p>HTML, CSS, Javascript, ReactJS, Solidity, Java, Python, Kotlin, C/C++, Mysql.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-android"></i>
+                    <i class="fa-solid fa-compass-drafting"></i>
+                    <h2>Android Development</h2>
+                    <p>Java, Kotlin, Flutter, XML.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-light fa-book"></i>
+                    <h2>Extra Achievements</h2>
+                    <p>
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------portfolio-------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/uiuxdesign.png">
+                    <div class="layer">
+                        <h3>Design</h3>
+                        <p>In this I have created some Templates, Logo's, Instagram, Facebook Post, WEB UI/UX Design.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/web.jpg">
+                    <div class="layer">
+                        <h3>WEB Development</h3>
+                        <p>In this I have created some Websites and Web Applications.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Android.png">
+                    <div class="layer">
+                        <h3>Android Developemnt</h3>
+                        <p>In this I have created some Android App's Using Kotlin and Java.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!---------------------------contact---------------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> jassu8299@gmail.com</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright © Jaspreet Singh.</p>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
